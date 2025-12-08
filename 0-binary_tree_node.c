@@ -17,7 +17,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	/* Verifier si l'allocation Ãechoue */
 	if (newnode != NULL)
 	{
-		value++;
 		newnode->n = value;
 		newnode->parent = parent;
 		newnode->left = NULL;
