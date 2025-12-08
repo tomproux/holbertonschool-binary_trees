@@ -1,4 +1,4 @@
-XCy# TITLE #
+# TITLE #
 
 BYNARY TREES
 
