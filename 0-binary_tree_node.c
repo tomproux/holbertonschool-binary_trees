@@ -5,7 +5,7 @@
 * binary_tree_node- fonction qui creer un binary tree node
 * @parent: pointeur de l'ancienne node
 * @value: valeur de la newnode
-* Return newnode
+* Return: newnode
 */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
