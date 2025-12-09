@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
+/**
+* binary_tree_insert_left- insert un enfant a gauche
+* @parent: pointeur du node parent
+* @value: valeur de la branche
+* Return: newnode
+*/
+
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node = NULL;

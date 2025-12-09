@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
+/**
+* binary_tree_insert_right- permet de creer une branche a droite
+* @parent: pointeur du node parent
+* @value: valeur de la nouvelle branche
+* Return: newnode
+*/
+
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node = NULL;
