@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
+/**
+ * binary_tree_postorder - print elements of tree using post-order traversal
+ * @tree: tree to go through
+ * @func: function to use
+ *
+ */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 	/* verifier que les pointeurs existent */
