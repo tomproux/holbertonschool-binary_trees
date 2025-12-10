@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
+/**
+ * binary_tree_inorder - print elements of tree using in-order traversal
+ * @tree: tree to go through
+ * @func: function to use
+ *
+ */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
 	/* verifier que les pointeurs existent */
