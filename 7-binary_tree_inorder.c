@@ -16,7 +16,7 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 	/*parcours du sous-arbre gauche*/
 	binary_tree_inorder(tree->left, func);
 
-        /* on traite la valeur du noeud en premier */
+	/* on traite la valeur du noeud en premier */
 	func(tree->n);
 
 	/* parcours du sous-arbre droit */
